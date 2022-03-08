@@ -1,4 +1,4 @@
-# Example Project Documentation Guidline
+# Example Project Documentation Guideline
 
 > Include here a brief description of the project, what technologies are used etc.
 
@@ -6,7 +6,7 @@
 
 - Answer some of these questions in the next few bullet points. What have you built? What technologies have you used? Why have you used those?
 
-- Example: The FastAPI framework allows for fast and easy construction of APIs and is combined with pydantic is used to assert the data types of all incoming data to allow for easier processing later on, the server is ran locally using uvicorn a library for ASGI server implementation.
+- Example: The FastAPI framework allows for fast and easy construction of APIs and is combined with pydantic, which is used to assert the data types of all incoming data to allow for easier processing later on. The server is ran locally using uvicorn, a library for ASGI server implementation.
   
 ```python
 """Insert your code here"""
@@ -20,7 +20,7 @@
 
 - Example below:
 
-```shell
+```bash
 /bin/kafka-topics.sh --list --zookeeper 127.0.0.1:2181
 ```
 
