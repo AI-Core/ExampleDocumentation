@@ -1,14 +1,30 @@
 # Football Match Outcome Prediction
 
-In this project, I'm implementing a data science pipeline seeking to predict the outcome of football matches.
+In this project, I'm implementing a data science pipeline seeking to predict the outcome of football matches. This uses:
+- the pandas libary for data wrangling and cleaning, including Levenshtein Distance textual comparisons via FuzzyWuzzy
+- exploratory data analysis and visualisation via plotly
+- **to be updated as the project progress**
+
+## Milestone 1 - EDA and Data Cleaning
+
+- The Data Cleaning framework extracts different structured and unstructured sources of related data and validates, cleans, compares it into one combined dataframe. The three data sources are csv files containing results data, match details, and team data. These have been combined via common links on besoccer.com and team names. The end result is a dataset with ~140k entries and 18 features (noting that not all will be of use).
+
+- Data cleaning has been carried out using standard python commands, pandas library, and fuzzywuzzy textual comparison. The notebook has been written to annotate the thought process and will later be built into a pipeline with minimal human interaction.
+
+- Sample graphs have been plotted to better understand and visualise the data, in order to inform and determine my strategy going forward.
+
+![](images/country_data.png)
+![](images/epl_goals_per_season.png)
+![](images/home_goals_across_leagues.png)
+
+- It is expected that the following features will be of use going forward:
+    - UPDATE*****
+
+- Null Hypothesis: H<sub>0</sub>: **** UPDATE
 
 
 #### *** WIP - TO BE UPDATED BEYOND THIS POINT ***
 
-
-> Include here a brief description of the project, what technologies are used etc.
-
-## Milestone 1
 
 - Answer some of these questions in the next few bullet points. What have you built? What technologies have you used? Why have you used those?
 
