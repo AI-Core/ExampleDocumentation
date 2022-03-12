@@ -1,8 +1,9 @@
 # Football Match Outcome Prediction
 
-In this project, I'm implementing a data science pipeline seeking to predict the outcome of football matches. This uses:
-- the pandas libary for data wrangling and cleaning, including Levenshtein Distance textual comparisons via FuzzyWuzzy
-- exploratory data analysis and visualisation via plotly
+In this project, I'm implementing a data science pipeline seeking to predict the outcome of football matches. In addition to standard Python commands, this uses:
+- The pandas libary for data wrangling and cleaning
+- Levenshtein Distance textual comparisons via FuzzyWuzzy
+- Exploratory data analysis and visualisation via plotly
 - **to be updated as the project progress**
 
 ## Milestone 1 - EDA and Data Cleaning
