@@ -7,7 +7,7 @@ In this project, I'm implementing a data science pipeline seeking to predict the
 
 ## Milestone 1 - EDA and Data Cleaning
 
-- The Data Cleaning framework extracts different structured and unstructured sources of related data and validates, cleans, compares it into one combined dataframe. The three data sources are csv files containing results data, match details, and team data. These have been combined via common links on besoccer.com and team names. The end result is a dataset with ~140k entries and 18 features (noting that not all will be of use).
+- The Data Cleaning framework extracts different structured and unstructured sources of related data and validates, cleans, compares and merges it into one combined dataframe. The different data sources are csv and pickkle files containing results data, match details, ELO, and team data. These have been combined via common links on besoccer.com and team names. The end result is a dataset with ~140k entries and 18 features (noting that not all will be of use).
 
 - Data cleaning has been carried out using standard python commands, pandas library, and fuzzywuzzy textual comparison. The notebook has been written to annotate the thought process and will later be built into a pipeline with minimal human interaction.
 
@@ -18,9 +18,15 @@ In this project, I'm implementing a data science pipeline seeking to predict the
 ![](images/home_goals_across_leagues.png)
 
 - It is expected that the following features will be of use going forward:
-    - UPDATE*****
+    - Result - this will need cleaning to be in a useful numerical format
+    - ELO rating - this measures the relative strength of the teams at the point of the match
+    - Round / Season - these are inherently linked to team ELO (e.g. if team gets stronger throughout the season, its ELO will also increase)
+    - Date_New - depending on the reliability of this data, this could provide insight into correlations relating to matches played on days of the week and at different times
+    - Red/Yellow cards - to be investigated as this won't be known before a match
+    - Capacity - strength of crowd (noting that attendence isn't known)
 
-- Null Hypothesis: H<sub>0</sub>: **** UPDATE
+
+- Null Hypothesis: **H<sub>0</sub>: The outcome of football natches cannot be predicted by previous statistics/records alone.**
 
 
 #### *** WIP - TO BE UPDATED BEYOND THIS POINT ***
